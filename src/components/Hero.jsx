@@ -1,6 +1,7 @@
 import { profile, metrics } from '../data'
 import { ripple, useInView, useCountUp } from '../hooks'
 import Reveal from './Reveal'
+import resumeUrl from '../assets/John-Javier-Idmilao-Resume.pdf?url'
 
 function Metric({ value, suffix, label, active }) {
   const n = useCountUp(value, active)
@@ -17,7 +18,6 @@ function Metric({ value, suffix, label, active }) {
 
 export default function Hero() {
   const [ref, inView] = useInView({ threshold: 0.4 })
-  const resumeUrl = import.meta.env.BASE_URL + profile.resume
 
   return (
     <section id="top" className="hero">
@@ -39,7 +39,7 @@ export default function Hero() {
           <p className="hero-summary">{profile.summary}</p>
 
           <div className="hero-actions">
-            <a className="m3-btn filled state" href={resumeUrl} download onClick={ripple}>
+            <a className="m3-btn filled state" href={resumeUrl} download="John-Javier-Idmilao-Resume.pdf" onClick={ripple}>
               <span className="msym">download</span>
               Download résumé
             </a>
