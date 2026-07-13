@@ -1,7 +1,7 @@
 import { profile, metrics } from '../data'
 import { ripple, useInView, useCountUp } from '../hooks'
 import Reveal from './Reveal'
-import resumeUrl from '../assets/John-Javier-Idmilao-Resume.pdf?url'
+import resumeUrl from '../assets/jhay_resume.pdf?url'
 
 function Metric({ value, suffix, label, active }) {
   const n = useCountUp(value, active)
