@@ -62,7 +62,7 @@ export default function Contact() {
 
       <footer className="footer">
         <span>{profile.name}</span>
-        <span>Built with React &amp; Material You · 2026</span>
+        <span>Built with React &amp; Material UI · 2026</span>
       </footer>
     </section>
   )
