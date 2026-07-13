@@ -1,0 +1,25 @@
+{
+  "name": "john-javier-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Material You portfolio for John Javier Idmilao",
+  "engines": {
+    "node": ">=12.2.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "1.2.0",
+    "gh-pages": "^3.2.3",
+    "vite": "^2.9.0"
+  }
+}
