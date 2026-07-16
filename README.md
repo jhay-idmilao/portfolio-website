@@ -4,6 +4,9 @@ A single-page developer portfolio built with **React 18 + Vite**, styled in the
 **Material You (Material 3)** design language with light/dark tonal themes,
 state layers, ripples, and scroll animations.
 
+**Website:**
+https://jhay-idmilao.github.io/portfolio-website/
+
 ## Compatibility
 
 This project is pinned to a toolchain that runs on **Node.js 12.2+ and npm 6+**:
